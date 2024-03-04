@@ -1,0 +1,7 @@
+## an example .env file -- add any environment variables required by the app
+
+## a bogus netbox secret -- for testing
+netbox_secret=XXab3de52310bfe623f2c3a1bef0f46b8b47f7zz
+
+## a bogus email address -- for testing
+admin_email=somebody@example.com

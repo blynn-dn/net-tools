@@ -1,0 +1,55 @@
+{
+  "event": "deleted",
+  "timestamp": "2024-03-03T20:13:13.072668+00:00",
+  "model": "ipaddress",
+  "username": "admin",
+  "request_id": "312e384f-0a97-4689-85a4-71c537e3a9c2",
+  "data": {
+    "id": 3,
+    "url": "/api/ipam/ip-addresses/3/",
+    "display": "10.255.250.2/32",
+    "family": {
+      "value": 4,
+      "label": "IPv4"
+    },
+    "address": "10.255.250.2/32",
+    "vrf": null,
+    "tenant": null,
+    "status": {
+      "value": "active",
+      "label": "Active"
+    },
+    "role": null,
+    "assigned_object_type": null,
+    "assigned_object_id": null,
+    "assigned_object": null,
+    "nat_inside": null,
+    "nat_outside": [],
+    "dns_name": "",
+    "description": "",
+    "comments": "",
+    "tags": [],
+    "custom_fields": {},
+    "created": "2024-03-03T19:38:31.792528Z",
+    "last_updated": "2024-03-03T19:38:31.792559Z"
+  },
+  "snapshots": {
+    "prechange": {
+      "created": "2024-03-03T19:38:31.792Z",
+      "description": "",
+      "comments": "",
+      "address": "10.255.250.2/32",
+      "vrf": null,
+      "tenant": null,
+      "status": "active",
+      "role": "",
+      "assigned_object_type": null,
+      "assigned_object_id": null,
+      "nat_inside": null,
+      "dns_name": "",
+      "custom_fields": {},
+      "tags": []
+    },
+    "postchange": null
+  }
+}

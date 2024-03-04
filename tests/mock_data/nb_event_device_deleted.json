@@ -1,0 +1,277 @@
+{
+    "event": "deleted",
+    "timestamp": "2023-07-06 16:50:12.668354+00:00",
+    "model": "device",
+    "username": "administrator",
+    "request_id": "2d2fff7b-f71d-4350-9bd0-a648e2977976",
+    "data": {
+        "id": "8bc5e906-a0ef-44f0-b312-5490a50bb61c",
+        "display": "fw00-test.dfw00.m247lab",
+        "url": "/api/dcim/devices/8bc5e906-a0ef-44f0-b312-5490a50bb61c/",
+        "name": "fw00-test.dfw00.m247lab",
+        "device_type": {
+            "display": "FortiGate MF00",
+            "id": "99709540-16e3-4eb0-864a-2a120e11f9c2",
+            "url": "/api/dcim/device-types/99709540-16e3-4eb0-864a-2a120e11f9c2/",
+            "manufacturer": {
+                "display": "FortiGate",
+                "id": "5f1e1fbb-0b02-480b-bfba-119ba3099084",
+                "url": "/api/dcim/manufacturers/5f1e1fbb-0b02-480b-bfba-119ba3099084/",
+                "name": "FortiGate",
+                "slug": "fortigate"
+            },
+            "model": "MF00",
+            "slug": "mf00"
+        },
+        "device_role": {
+            "display": "Management Firewall",
+            "id": "51e19149-4c7f-48e9-99b8-3669abb89e76",
+            "url": "/api/dcim/device-roles/51e19149-4c7f-48e9-99b8-3669abb89e76/",
+            "name": "Management Firewall",
+            "slug": "management-firewall"
+        },
+        "tenant": null,
+        "platform": null,
+        "serial": "",
+        "asset_tag": null,
+        "site": {
+            "display": "ams00",
+            "id": "4e26cffb-058d-4b18-9f99-98233cbe3b03",
+            "url": "/api/dcim/sites/4e26cffb-058d-4b18-9f99-98233cbe3b03/",
+            "name": "ams00",
+            "slug": "ams00"
+        },
+        "location": {
+            "display": "sn00.ams00",
+            "id": "b778db99-9fbf-4f08-8039-e8f9e61b7207",
+            "url": "/api/dcim/locations/b778db99-9fbf-4f08-8039-e8f9e61b7207/",
+            "name": "sn00.ams00",
+            "slug": "sn00ams00",
+            "tree_depth": null
+        },
+        "rack": {
+            "display": "rk00.ams00 (AM5:01:000Z2A:0207)",
+            "id": "875beeef-ea39-428d-9572-e8a95776e098",
+            "url": "/api/dcim/racks/875beeef-ea39-428d-9572-e8a95776e098/",
+            "name": "rk00.ams00"
+        },
+        "position": null,
+        "face": null,
+        "parent_device": null,
+        "status": {
+            "value": "active",
+            "label": "Active"
+        },
+        "primary_ip": null,
+        "primary_ip4": null,
+        "primary_ip6": null,
+        "secrets_group": null,
+        "cluster": null,
+        "virtual_chassis": null,
+        "vc_position": null,
+        "vc_priority": null,
+        "device_redundancy_group": null,
+        "device_redundancy_group_priority": null,
+        "comments": "",
+        "local_context_schema": null,
+        "local_context_data": null,
+        "created": "2023-07-06",
+        "last_updated": "2023-07-06T16:47:45.204061Z",
+        "tags": [
+            {
+                "display": "fw00",
+                "id": "2768156d-02cd-432c-aaaf-2df67fe0646c",
+                "url": "/api/extras/tags/2768156d-02cd-432c-aaaf-2df67fe0646c/",
+                "name": "fw00",
+                "slug": "fw00",
+                "color": "673ab7",
+                "created": "2023-01-18",
+                "last_updated": "2023-01-18T18:33:37.926645Z"
+            }
+        ],
+        "notes_url": "/api/dcim/devices/8bc5e906-a0ef-44f0-b312-5490a50bb61c/notes/",
+        "custom_fields": {}
+    },
+    "snapshots": {
+        "prechange": {
+            "id": "8bc5e906-a0ef-44f0-b312-5490a50bb61c",
+            "url": "/api/dcim/devices/8bc5e906-a0ef-44f0-b312-5490a50bb61c/",
+            "face": null,
+            "name": "fw00-test.dfw00.m247lab",
+            "rack": {
+                "id": "875beeef-ea39-428d-9572-e8a95776e098",
+                "url": "/api/dcim/racks/875beeef-ea39-428d-9572-e8a95776e098/",
+                "name": "rk00.ams00",
+                "display": "rk00.ams00 (AM5:01:000Z2A:0207)"
+            },
+            "site": {
+                "id": "4e26cffb-058d-4b18-9f99-98233cbe3b03",
+                "url": "/api/dcim/sites/4e26cffb-058d-4b18-9f99-98233cbe3b03/",
+                "name": "ams00",
+                "slug": "ams00",
+                "display": "ams00"
+            },
+            "tags": [
+                {
+                    "id": "2768156d-02cd-432c-aaaf-2df67fe0646c",
+                    "url": "/api/extras/tags/2768156d-02cd-432c-aaaf-2df67fe0646c/",
+                    "name": "fw00",
+                    "slug": "fw00",
+                    "color": "673ab7",
+                    "created": "2023-01-18",
+                    "display": "fw00",
+                    "last_updated": "2023-01-18T18:33:37.926645Z"
+                }
+            ],
+            "serial": "",
+            "status": {
+                "label": "Active",
+                "value": "active"
+            },
+            "tenant": null,
+            "cluster": null,
+            "created": "2023-07-06",
+            "display": "fw00-test.dfw00.m247lab",
+            "comments": "",
+            "location": {
+                "id": "b778db99-9fbf-4f08-8039-e8f9e61b7207",
+                "url": "/api/dcim/locations/b778db99-9fbf-4f08-8039-e8f9e61b7207/",
+                "name": "sn00.ams00",
+                "slug": "sn00ams00",
+                "display": "sn00.ams00",
+                "tree_depth": 0
+            },
+            "platform": null,
+            "position": null,
+            "asset_tag": null,
+            "notes_url": "/api/dcim/devices/8bc5e906-a0ef-44f0-b312-5490a50bb61c/notes/",
+            "primary_ip": null,
+            "device_role": {
+                "id": "51e19149-4c7f-48e9-99b8-3669abb89e76",
+                "url": "/api/dcim/device-roles/51e19149-4c7f-48e9-99b8-3669abb89e76/",
+                "name": "Management Firewall",
+                "slug": "management-firewall",
+                "display": "Management Firewall"
+            },
+            "device_type": {
+                "id": "99709540-16e3-4eb0-864a-2a120e11f9c2",
+                "url": "/api/dcim/device-types/99709540-16e3-4eb0-864a-2a120e11f9c2/",
+                "slug": "mf00",
+                "model": "MF00",
+                "display": "FortiGate MF00",
+                "manufacturer": {
+                    "id": "5f1e1fbb-0b02-480b-bfba-119ba3099084",
+                    "url": "/api/dcim/manufacturers/5f1e1fbb-0b02-480b-bfba-119ba3099084/",
+                    "name": "FortiGate",
+                    "slug": "fortigate",
+                    "display": "FortiGate"
+                }
+            },
+            "primary_ip4": null,
+            "primary_ip6": null,
+            "vc_position": null,
+            "vc_priority": null,
+            "last_updated": "2023-07-06T16:47:45.204061Z",
+            "custom_fields": {},
+            "parent_device": null,
+            "secrets_group": null,
+            "virtual_chassis": null,
+            "local_context_data": null,
+            "local_context_schema": null,
+            "device_redundancy_group": null,
+            "device_redundancy_group_priority": null
+        },
+        "postchange": null,
+        "differences": {
+            "removed": {
+                "id": "8bc5e906-a0ef-44f0-b312-5490a50bb61c",
+                "url": "/api/dcim/devices/8bc5e906-a0ef-44f0-b312-5490a50bb61c/",
+                "face": null,
+                "name": "fw00-test.dfw00.m247lab",
+                "rack": {
+                    "id": "875beeef-ea39-428d-9572-e8a95776e098",
+                    "url": "/api/dcim/racks/875beeef-ea39-428d-9572-e8a95776e098/",
+                    "name": "rk00.ams00",
+                    "display": "rk00.ams00 (AM5:01:000Z2A:0207)"
+                },
+                "site": {
+                    "id": "4e26cffb-058d-4b18-9f99-98233cbe3b03",
+                    "url": "/api/dcim/sites/4e26cffb-058d-4b18-9f99-98233cbe3b03/",
+                    "name": "ams00",
+                    "slug": "ams00",
+                    "display": "ams00"
+                },
+                "tags": [
+                    {
+                        "id": "2768156d-02cd-432c-aaaf-2df67fe0646c",
+                        "url": "/api/extras/tags/2768156d-02cd-432c-aaaf-2df67fe0646c/",
+                        "name": "fw00",
+                        "slug": "fw00",
+                        "color": "673ab7",
+                        "created": "2023-01-18",
+                        "display": "fw00",
+                        "last_updated": "2023-01-18T18:33:37.926645Z"
+                    }
+                ],
+                "serial": "",
+                "status": {
+                    "label": "Active",
+                    "value": "active"
+                },
+                "tenant": null,
+                "cluster": null,
+                "created": "2023-07-06",
+                "display": "fw00-test.dfw00.m247lab",
+                "comments": "",
+                "location": {
+                    "id": "b778db99-9fbf-4f08-8039-e8f9e61b7207",
+                    "url": "/api/dcim/locations/b778db99-9fbf-4f08-8039-e8f9e61b7207/",
+                    "name": "sn00.ams00",
+                    "slug": "sn00ams00",
+                    "display": "sn00.ams00",
+                    "tree_depth": 0
+                },
+                "platform": null,
+                "position": null,
+                "asset_tag": null,
+                "notes_url": "/api/dcim/devices/8bc5e906-a0ef-44f0-b312-5490a50bb61c/notes/",
+                "primary_ip": null,
+                "device_role": {
+                    "id": "51e19149-4c7f-48e9-99b8-3669abb89e76",
+                    "url": "/api/dcim/device-roles/51e19149-4c7f-48e9-99b8-3669abb89e76/",
+                    "name": "Management Firewall",
+                    "slug": "management-firewall",
+                    "display": "Management Firewall"
+                },
+                "device_type": {
+                    "id": "99709540-16e3-4eb0-864a-2a120e11f9c2",
+                    "url": "/api/dcim/device-types/99709540-16e3-4eb0-864a-2a120e11f9c2/",
+                    "slug": "mf00",
+                    "model": "MF00",
+                    "display": "FortiGate MF00",
+                    "manufacturer": {
+                        "id": "5f1e1fbb-0b02-480b-bfba-119ba3099084",
+                        "url": "/api/dcim/manufacturers/5f1e1fbb-0b02-480b-bfba-119ba3099084/",
+                        "name": "FortiGate",
+                        "slug": "fortigate",
+                        "display": "FortiGate"
+                    }
+                },
+                "primary_ip4": null,
+                "primary_ip6": null,
+                "vc_position": null,
+                "vc_priority": null,
+                "last_updated": "2023-07-06T16:47:45.204061Z",
+                "custom_fields": {},
+                "parent_device": null,
+                "secrets_group": null,
+                "virtual_chassis": null,
+                "local_context_data": null,
+                "local_context_schema": null,
+                "device_redundancy_group": null,
+                "device_redundancy_group_priority": null
+            },
+            "added": null
+        }
+    }
+}
